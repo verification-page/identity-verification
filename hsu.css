@@ -1,0 +1,263 @@
+body {
+	/* background: url(../images/tester1.jpg) repeat top center #cbe397; */
+	background: #F5F3E7;
+}
+
+/* header */
+
+.ir {
+	display: block;
+	text-indent: -999em;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-align: left;
+	direction: ltr;
+}
+
+.mylogo {
+	height: 48px;
+	width: 190px;
+	background: url(../images/myhumboldt.png) no-repeat top left;
+	margin: 15px 0 39px 0;
+}
+
+.mybiglogo {
+	height: 59px;
+	width: 244px;
+	/* background: url(../images/bigmyhumboldt.png) no-repeat top left; */
+	background: url(../images/myHumboldt-seaglass.png) no-repeat top left;
+	background-size: 244px 59px;
+	margin: 15px 0 25px 0;
+	float: left;
+}
+
+.security {
+	color: #EE0700;
+	font-weight: bold;
+}
+
+.card {
+	border-radius: 0;
+	border-bottom-left-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+}
+
+.card-header {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.login-section {
+	padding: 2rem 2.5rem !important;
+}
+
+.masthead {
+	background-color: #004C46;
+	border-bottom: 1px solid #555;
+	height: 100px;
+	display: flex;
+}
+
+/*  iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	/* body {
+		justify-content: flex-start;
+	} */
+
+	/* .masthead {
+		height: 70px;
+		align-items: center;
+	}
+
+	.container {
+		margin-bottom: 7rem !important;
+	} */
+}
+
+
+.header-logo {
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	background: #00856A;
+	height: 100px;
+	align-items: baseline;
+	padding: 0;
+}
+
+.header-logo-container {
+	width: 690px;
+	height: 100px;
+	background: white;
+}
+
+.seaglass-logo {
+	width: 240px;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	background: url(../images/myHumboldt-seaglass.png) no-repeat;
+	background-color: white;
+	background-size: 236px 55px;
+	overflow: hidden;
+	margin: 25px;
+}
+
+@media (max-width:768px) {
+	.header-logo-container {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		height: 80px;
+		overflow: hidden;
+	}
+
+	.seaglass-logo {
+		width: 240px;
+		height: 60px;
+		margin: 10px 0 auto;
+	}
+}
+
+.logowrapper {
+	max-width: 800px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+
+.logo {
+	background: url(../images/CalPolyHumboldt_logo_white.png) no-repeat;
+	width: 200px;
+	/*height:19px;*/
+	height: 40px;
+	padding: 5px;
+	display: block;
+	background-size: 200px 38px;
+}
+
+.forgot-user-name-label {
+	font-weight: 700;
+  	font-size: 18px;
+  	line-height: 27px;
+}
+
+.link-decoration {
+	text-decoration: underline;
+	color: #00856A;
+}
+
+a:hover, a:visited {
+	color: #864E27;
+}
+
+/**/
+
+.controls {
+	margin: 28px 0 0 0;
+}
+
+.loginbtn {
+	float: right;
+	display: block;
+	width: 64px;
+	height: 25px;
+	padding: 0;
+	color: #004C46;
+	margin-top: -3px;
+	background: url(../images/login.png) no-repeat top left;
+	border: 0;
+}
+
+.ie7 .loginbtn {
+	position: relative;
+	top: -20px;
+}
+
+.container {
+	/*background:url(../images/tester1.jpg) repeat top center #cbe397;*/
+	max-width: 800px;
+	padding-top: 0px !important;
+}
+
+.disclaimer strong {
+	color: #00856A;
+	font-size: 18px;
+}
+
+.form-control {
+	background-color: #f6f6f6;
+}
+
+/*div.index {background-color:#577a36;}*/
+
+div.footer {
+	/* background: #577a36 url(../images/footer.gif) repeat-x left top; */
+	background-color: #004C46;
+	padding: 8px 0 56px;
+	height: 55px;
+	padding-top: 10px;
+}
+
+
+
+@media (min-width:768px
+) {
+	div.footer {
+		padding-bottom: 56px;
+	}
+}
+
+div.index ul {
+	text-align: center;
+	color: #fff;
+	padding-left: 0;
+}
+
+div.index li {
+	display: inline;
+	font-size: 14px;
+	margin: auto;
+}
+
+.index a {
+	color: #fff;
+	text-decoration: none;
+	padding: 9px 5px 11px;
+}
+
+.index a:hover {
+	background-color: #555;
+}
+
+a#bottom-branding {
+	background: transparent url(../images/circleh.png) no-repeat top center;
+	margin: -20px auto 100px;
+	height: 39px;
+	width: 39px;
+	display: block;
+}
+
+.alert-success {
+	background-color: #FFF;
+}
+
+.btn-outline-secondary.btn-humboldt {
+	border-color: #20400C;
+	color: #20400C;
+	background-color: white;
+}
+
+.btn-outline-secondary.btn-humboldt:hover, .btn-outline-secondary.btn-humboldt:active, .btn-outline-secondary.btn-humboldt:focus {
+	background-color: #567835;
+	color: white;
+}
+
+#errors h2.error {
+	font-size: 1rem;
+}
+
+#errors h2.error:last-child {
+	margin-bottom: 0;
+}
