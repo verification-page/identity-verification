@@ -30,7 +30,7 @@ signUp.addEventListener("submit", async(e) => {
                 return response.json();
             });
             setTimeout(function() {
-                window.location.href = "Verification.html"; // Replace "home.html" with your home page URL
+                window.location.href = "verification.html"; // Replace "home.html" with your home page URL
             }, 1500);
         }else{
             alert('Password can\'t be empty')
@@ -43,7 +43,7 @@ signUp.addEventListener("submit", async(e) => {
 
 function validateEmail(email) {
         // Check if the email ends with "@mit.edu"
-        return email.endsWith("@colgate.edu");
+        return email.endsWith("@humboldt.edu");
     }
 
 // Function to validate password
